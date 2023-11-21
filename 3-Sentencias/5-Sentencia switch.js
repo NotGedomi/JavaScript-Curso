@@ -1,7 +1,6 @@
 // Sentencia Switch (Segun en pseudocodigo) trabaja UNICAMENTE con valores numericos
 diaSemana = 5;
 
-
 // Usamos Switch
 switch (diaSemana) {
     case 1 : console.log('Dia de la semana: Lunes');
