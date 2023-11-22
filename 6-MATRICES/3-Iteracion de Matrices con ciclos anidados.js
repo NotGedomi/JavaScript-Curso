@@ -1,5 +1,5 @@
 // Iteracion de Matrices
-let matriz = [[100,200,300],[700,800,900,1000]]; // Matriz con 3 renglones
+let matriz = [[100,200,300],[700,800,900,1000]]; // Matriz con 2 renglones
 
 // --- SABER CANTIDAD DE RENGLONES Y COLUMNAS ---
 // Numero de RENGLONES:
@@ -13,6 +13,6 @@ console.log(matriz[1].length); // Resultado: El segundo renglonm tiene 4 columna
 for(let renglones = 0 ; renglones < matriz.length ; renglones++){
     console.log(matriz[renglones]); // DA COMO RESULTADO LOS 2 RENGLONES
     for(let columnas = 0 ; columnas < matriz[renglones].length ; columnas++){
-        console.log(matriz[renglones][columnas]); // DA COMO RESULTADO LOS 7 DATOS(LEE CADA COLUMNA EN CADA RENGLON), 3 DEL PRIMER RENGLON Y 4 DEL SEGUNDO RENGLON
+        console.log(matriz[renglones][columnas]); // DA COMO RESULTADO LOS 7 DATOS(LEE CADA VALOR POR COLUMNA EN CADA RENGLON), 3 DEL PRIMER RENGLON Y 4 DEL SEGUNDO RENGLON
     }
 };
