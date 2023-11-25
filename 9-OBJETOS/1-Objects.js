@@ -1,4 +1,4 @@
-// Objetos en JS: Un objeto tiene propiedades y metodos, a diferencia de un primitivo
+// Objetos en JavaScript: Un objeto tiene propiedades y metodos, a diferencia de un primitivo
 // -- Declaracion y definicion de un Object
 let persona = {
     nombre: 'Juan',

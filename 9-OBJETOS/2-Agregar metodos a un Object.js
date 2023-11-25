@@ -1,4 +1,4 @@
-// Agregar metodos a Objects en JS
+// Agregar metodos a Objects en JavaScript
 let persona = {
     nombre: 'Juan',
     apellido: 'Perez',
