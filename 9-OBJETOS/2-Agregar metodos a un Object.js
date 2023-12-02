@@ -4,7 +4,7 @@ let persona = {
     apellido: 'Perez',
     email: 'jperez@mail.com',
     edad: 28,
-    // Creamos un metodo dentro, para retornas el nombre completo
+    // Creamos un metodo dentro, para retornar el nombre completo
     nombreCompleto: function(){ // No usamos parametros por el momento
         return this.nombre + this.apellido; // Usamos "this" para hacer referencia al objeto y usar sus propiedades
     },

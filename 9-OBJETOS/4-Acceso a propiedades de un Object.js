@@ -11,8 +11,8 @@ console.log(persona.nombre); // Resultado: Gedomi
 console.log(persona['nombre']); // Resultado: Gedomi
 
 // Recorrer un object con for in
-for(x in persona) {
-    console.log(x); // Resultado: nombre, apellido
-    console.log(persona[x]); // Resultado: Gedomi, Onichan
+for(propiedad in persona) {
+    console.log(propiedad); // Resultado: nombre, apellido
+    console.log(persona[propiedad]); // Resultado: Gedomi, Onichan
 }
 
