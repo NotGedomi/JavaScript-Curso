@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM con JS</title>
+</head>
+<body>
+    <p id="parrafo1"> Parrafo 1 </p>
+    <p id="parrafo2"> Parrafo 2 </p>
+    <script>
+        // Rescatar elementos con getElementsByTagName
+        let parrafos = document.getElementsByTagName('p');
+        console.log(`Cantidad de Parrafos: ${parrafos.length}`); // Resultado: 2
+        // Iteramos estos elementos
+        for(let i = 0; i < parrafos.length; i++){
+            console.log(`Parrafo ${i + 1}: ${parrafos[i].innerHTML}`)
+        }
+    </script>
+</body>
+</html>

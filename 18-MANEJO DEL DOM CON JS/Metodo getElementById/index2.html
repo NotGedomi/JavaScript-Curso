@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>DOM con JS</title>
+</head>
+<body>
+    <h1 id="cabecero">Saludos</h1>
+    <p id="parrafo">UwU</p>
+    <script> // El script debe ir despues del elemento HTML involucrado con JS
+
+        // Modificando con innetHTML
+        let cabecero = document.getElementById('cabecero');
+        cabecero.innerHTML = 'Modificacion con JS';
+
+        let parrafo = document.getElementById('parrafo');
+        parrafo.innerHTML = '0w0';
+
+    </script>
+</body>
+</html>
