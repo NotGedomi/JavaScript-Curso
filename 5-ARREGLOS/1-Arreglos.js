@@ -6,6 +6,6 @@ let miArreglo = []; // Aca estamos definiendo el arreglo
 miArreglo[0] = 1; // Numerico
 miArreglo[1] = 'a'; // String
 
-//Imprimos algun indice
+//Imprimimos algun indice
 console.log(miArreglo[0]); // Resultado: 1
 
