@@ -19,7 +19,7 @@ d = 4 / 2;
 console.log(d);
 
 // Modulo (Residuo Division)
-e = 8 / 3;
+e = 8 % 3;
 console.log(e);
 
 // Potencia
